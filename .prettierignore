@@ -4,3 +4,4 @@
 **/node_modules
 **/locales
 pnpm-lock.yaml
+vite.config.ts
