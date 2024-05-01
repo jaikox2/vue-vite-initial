@@ -7,7 +7,14 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    Banner: typeof import('./../components/Banner.vue')['default']
+    Dialog: typeof import('@headlessui/vue')['Dialog']
+    DialogPanel: typeof import('@headlessui/vue')['DialogPanel']
     HelloWorld: typeof import('./../components/HelloWorld.vue')['default']
+    HeroiconsOutlineBars3: typeof import('~icons/heroicons-outline/bars3')['default']
+    HeroiconsOutlineDialog: typeof import('~icons/heroicons-outline/dialog')['default']
+    HeroiconsOutlineSparkles: typeof import('~icons/heroicons-outline/sparkles')['default']
+    HeroiconsOutlineXMark: typeof import('~icons/heroicons-outline/x-mark')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }

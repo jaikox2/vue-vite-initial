@@ -1,3 +1,14 @@
 {
-  "recommendations": ["Vue.volar", "Vue.vscode-typescript-vue-plugin"]
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "lokalise.i18n-ally",
+    "antfu.iconify",
+    "esbenp.prettier-vscode",
+    "visualstudioexptteam.vscodeintellicode",
+    "johnsoncodehk.volar",
+    "voorjaar.windicss-intellisense",
+    "mikestead.dotenv",
+    "aaron-bond.better-comments"
+  ]
 }
